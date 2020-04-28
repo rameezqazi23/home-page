@@ -1,5 +1,14 @@
 *{
     font-family: 'Product', Google Sans;
+    @font-face {
+        font-family: 'Product', Google Sans;
+        src: url(GoogleSans-Medium.ttf);
+    }
+}
+
+@font-face {
+    font-family: 'Product', Google Sans;
+    src: url(GoogleSans-Medium.ttf);
 }
 
 
@@ -64,28 +73,62 @@ a{
     
 }
 
-.saylani-logo{
-    /* padding: 20px; */
-    padding-left:70px;
-   
+
+
+
+div.navigation-bar{
+
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    line-height: 50px;
+
+
 }
+
+div.navigation-bar-image{
+
+    margin-right: 150px;
+
+}
+
+div.navigation-bar-buttons{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center; 
+
+}
+
 .home{
+    display: flex;
+    flex-wrap: wrap;
+
     margin: 1px;
     padding: 12px ;
-    position: relative;
-    left: 230px ;
+    /* position: relative;
+    left: 230px ; */
     background-color: rgb(78, 134, 238);
     color: white;
     border-style: none;
     border-radius: 30px;
   
 }
+
 .about, .services, .fp, .media, .news, .donation, .contact, .services{
+
+    /* display: flex;
+    flex-wrap: wrap; */
+    justify-content: flex-end;
     
     margin: 1px;
     padding: 12px ;
-    position: relative;
-    left: 230px ;
+    /* position: relative;
+    left: 230px ; */
     /* background-color: rgb(46, 187, 46); */
     /* color: white; */
     border-style: none;
@@ -94,22 +137,18 @@ a{
     
 }
 .about:hover, .services:hover, .fp:hover, .media:hover, .news:hover, .donation:hover, .contact:hover, .services:hover{
+    display: flex;
+    flex-wrap: wrap;
+
+    
     background-color: rgb(46, 187, 46);
     color: white;
     transition: 0.1s;
     animation-fill-mode: backwards;
 }
-div.navigation{
 
-   
-    position: sticky;
-    top: 0;
-    background-color: white;
-    width: auto;  /* issue resolved successfully*/
 
-    
 
-}
 
 
 
@@ -123,7 +162,7 @@ div.navigation{
     max-width: 1100px;
     margin: 10px auto 10px auto;
     box-shadow: 2px 2px 5px grey;
-    line-height: 12px;
+    line-height: 16px;
 
     display: flex;
     flex-wrap: wrap;
