@@ -1,0 +1,355 @@
+*{
+    font-family: 'Product', Google Sans;
+}
+
+
+
+/* body{
+    font-family: 'Product', Google Sans;
+} */
+
+div.top-bar{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 10px;
+    margin: 0 auto;
+
+    background-color: rgb(78, 134, 238);
+
+}
+
+#fb, #ins, #yt, #wa, #tw{
+
+    padding-left: 10px;
+    color: white;
+    margin: 3px;
+    
+    
+}
+
+
+div.bar-text{
+    
+    color: white;
+   
+    
+}
+
+/* a{
+    text-decoration: none;
+    color: white;
+} */
+
+#donor, #donation, #smit-result{
+
+    padding: 8px;
+
+    background-color: rgb(46, 187, 46);
+    border: none;
+    border-radius: 16px;
+}
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.saylani-logo{
+    /* padding: 20px; */
+    padding-left:70px;
+   
+}
+.home{
+    margin: 1px;
+    padding: 12px ;
+    position: relative;
+    left: 230px ;
+    background-color: rgb(78, 134, 238);
+    color: white;
+    border-style: none;
+    border-radius: 30px;
+  
+}
+.about, .services, .fp, .media, .news, .donation, .contact, .services{
+    
+    margin: 1px;
+    padding: 12px ;
+    position: relative;
+    left: 230px ;
+    /* background-color: rgb(46, 187, 46); */
+    /* color: white; */
+    border-style: none;
+    border-radius: 30px;
+    background: none;
+    
+}
+.about:hover, .services:hover, .fp:hover, .media:hover, .news:hover, .donation:hover, .contact:hover, .services:hover{
+    background-color: rgb(46, 187, 46);
+    color: white;
+    transition: 0.1s;
+    animation-fill-mode: backwards;
+}
+div.navigation{
+
+   
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: auto;  /* issue resolved successfully*/
+
+    
+
+}
+
+
+
+.happen{
+    font-size: 14px;
+    text-align: initial;
+    background-color:  rgb(78, 134, 238);
+    color: white;
+    padding: 8px;
+    min-width: 400px;
+    max-width: 1100px;
+    margin: 10px auto 10px auto;
+    box-shadow: 2px 2px 5px grey;
+    line-height: 12px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.main-image{
+    min-width: 200px;
+    max-width: 1245px;
+    
+}
+div.introduction{
+    background-color: rgb(253, 251, 251);
+}
+.partial{
+    text-align: center;
+    font-family: 'Product', Samsung Sharp Sans;
+    color:  rgb(78, 134, 238);
+}
+.next-partial{
+    font-family: 'Product', Samsung Sharp Sans;
+    color: rgb(46, 187, 46);
+}
+#first-para, #second-para, #third-para, #fourth-para{
+    text-align: justify;
+    margin: 10px auto 10px auto;
+    padding: 20px;
+    min-width: 500px;
+    max-width: 1020px;
+    opacity: 0.6;
+}
+div.achievements{
+
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; */
+
+    background-color: rgb(12, 86, 223) ;
+    padding: 5px;
+    
+}
+div.food, div.family, div.medical, div.education{
+
+    font-weight: bolder;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    margin: 10px auto 10px auto;
+    padding: 30px;
+    position: relative;
+    left: 100px;
+    /* background-color: rgb(78, 134, 238); */
+    color: white;
+    line-height: 1px;
+
+   
+    
+}
+#total{
+    font-family: 'Product', Samsung Sharp Sans;
+    font-size: 50px;
+}
+.month-color{
+    color: rgb(14, 247, 14);
+}
+
+.partial_two{
+    text-align: center;
+    font-family: 'Product', Samsung Sharp Sans;
+    color: rgb(78, 134, 238);
+}
+.next-partial_two{
+    font-family: 'Product', Samsung Sharp Sans;
+    color:  rgb(46, 187, 46);
+}
+div.projects-inprogress{
+    background-color: rgb(247, 247, 247);
+    /* padding: 50px; */
+
+}
+
+.sadqah, .welfare, .medical-second-div, .dastarkhan, .roplant, .education-second-div{
+    display: inline-block;
+    text-align: center;
+    width: 350px;
+    padding: 5px;
+    /* display: inline-table; */
+    position: relative; 
+    left: 30px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+/* ;
+    border: none;
+    margin: 0 auto; */
+    
+    
+    
+    /* position: relative;
+    top: 50px; */
+    /* bottom: 50px; */
+    
+/* } */
+
+#sadqah-text, #welfare-text, #medical-text, #dastarkhan-text, #roplant-text, #education-text{
+    font-family: 'Product', Samsung Sharp Sans;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(78, 134, 238);
+    
+}
+
+.upcomming-project-box-text{
+
+    font-weight: bolder;
+    color: rgb(78, 134, 238);
+    padding-left: 30px;
+    
+
+}
+
+div.upcomming-project-text{
+
+    font-size: 20px;
+    color: rgb(78, 134, 238);
+}
+
+
+div.upcomming-project{
+
+    margin-left: 65px;
+
+}
+
+
+
+.upcomming-project-box-one,.upcomming-project-box-two, .upcomming-project-box-three, .upcomming-project-box-four{
+    
+
+    margin: 0 auto; 
+    width: 330px;
+    padding: 2px 25px 5px 5px;
+    background-color: rgb(245, 245, 245);
+    position: relative;
+    height: 60px;
+    
+}
+
+.upcomming-project-box-two,.upcomming-project-box-four{
+
+    position: relative;
+    left: 30px;
+}
+
+.upcomming-project-box-three, .upcomming-project-box-four{
+    position: relative;
+    top: 30px;
+}
+
+div.upcomming-events{
+    /* display: inline-block;
+    position: relative; */
+    display: flex;
+    align-items: flex-end;
+    top: 0px;
+    bottom: 200px;
+}
+
+
+
+
+
+
+/* .upcomming-project-boxes{
+
+    display: flex ; 
+
+}
+.upcomming-project-box-one,.upcomming-project-box-two{
+
+   
+
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    padding: 10px 10px 10px 20px;
+
+
+} 
+
+.upcomming-project-box-three, .upcomming-project-box-four{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.list-alignment{
+    display: inline-block;
+    position: absolute;
+    border: 2px hidden;
+    text-align: center;
+    
+    margin: 5px auto 5px auto;
+    list-style: none;
+    background-color: rgb(78, 134, 238);
+    color: white;
+    
+} */
+
+
+
