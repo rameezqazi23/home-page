@@ -60,16 +60,15 @@ div.bar-text{
     background-color: rgb(46, 187, 46);
     border: none;
     border-radius: 16px;
+
+    
+
 }
-
-
-
-
 
 
 a{
     text-decoration: none;
-    color: white;
+    /* color: white; */
     
 }
 
@@ -185,7 +184,7 @@ div.introduction{
     font-family: 'Product', Samsung Sharp Sans;
     color: rgb(46, 187, 46);
 }
-#first-para, #second-para, #third-para, #fourth-para{
+.introduction-paragraph{
     text-align: justify;
     margin: 10px auto 10px auto;
     padding: 20px;
@@ -287,6 +286,7 @@ div.projects-inprogress{
 
 div.upcomming-project-text{
 
+    padding-bottom: 30px;
     font-size: 20px;
     color: rgb(78, 134, 238);
 }
@@ -324,43 +324,54 @@ div.upcomming-project{
 }
 
 div.upcomming-events{
-    /* display: inline-block;
-    position: relative; */
-    display: flex;
-    align-items: flex-end;
-    top: 0px;
-    bottom: 200px;
-}
-
-
-
-
-
-
-/* .upcomming-project-boxes{
-
-    display: flex ; 
-
-}
-.upcomming-project-box-one,.upcomming-project-box-two{
-
-   
-
-    display: flex;
-    align-items: center;
-    margin-left: 100px;
-    padding: 10px 10px 10px 20px;
-
-
-} 
-
-.upcomming-project-box-three, .upcomming-project-box-four{
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     
-} */
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+
+div.upcomming-event-heading{
+
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    float: right;
+    /* padding-bottom: 30px; */
+    bottom: 240px;
+    width: 300px;
+    right: 110px;
+    font-size: 20px;
+    color: rgb(78, 134, 238);
+    
+      
+
+}
+
+div.upcomming-event-details{
+
+    
+    position: relative;
+    float: right;
+    left: 150px;
+    bottom: 135px;
+    overflow: hidden;
+    
+
+}
+
+
+.event-paragraphs{
+
+    opacity: 0.7;
+
+}
+
+
+
+
+
+
+
 
 
 
