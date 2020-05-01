@@ -184,6 +184,14 @@ div.introduction{
     font-family: 'Product', Samsung Sharp Sans;
     color: rgb(46, 187, 46);
 }
+#introduction-favicon{
+
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 600px;
+
+}
 .introduction-paragraph{
     text-align: justify;
     margin: 10px auto 10px auto;
@@ -228,6 +236,9 @@ div.food, div.family, div.medical, div.education{
 }
 
 .partial_two{
+  
+    padding-bottom: 40px;
+    padding-top: 40px;
     text-align: center;
     font-family: 'Product', Samsung Sharp Sans;
     color: rgb(78, 134, 238);
@@ -240,6 +251,14 @@ div.projects-inprogress{
     background-color: rgb(247, 247, 247);
     /* padding: 50px; */
 
+}
+#project-inprogress-favicon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    left: 600px;
+    bottom: 50px;
 }
 
 .sadqah, .welfare, .medical-second-div, .dastarkhan, .roplant, .education-second-div{
@@ -255,17 +274,6 @@ div.projects-inprogress{
     margin-left: 30px;
 }
 
-/* ;
-    border: none;
-    margin: 0 auto; */
-    
-    
-    
-    /* position: relative;
-    top: 50px; */
-    /* bottom: 50px; */
-    
-/* } */
 
 #sadqah-text, #welfare-text, #medical-text, #dastarkhan-text, #roplant-text, #education-text{
     font-family: 'Product', Samsung Sharp Sans;
@@ -336,7 +344,6 @@ div.upcomming-event-heading{
     flex-wrap: wrap;
     position: relative;
     float: right;
-    /* padding-bottom: 30px; */
     bottom: 240px;
     width: 300px;
     right: 110px;
@@ -355,6 +362,7 @@ div.upcomming-event-details{
     left: 150px;
     bottom: 135px;
     overflow: hidden;
+   
     
 
 }
@@ -365,6 +373,113 @@ div.upcomming-event-details{
     opacity: 0.7;
 
 }
+
+div.image-gallery{
+    padding-top: 150px;
+   
+}
+div.image-gallery-text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+    position: relative;
+    left: 280px;
+}
+
+.partial_three{
+    font-family: 'Product', Samsung Sharp Sans;
+    color: rgb(78, 134, 238);
+}
+.next-partial_three{
+    font-family: 'Product', Samsung Sharp Sans;
+    color: rgb(46, 187, 46);
+}
+.image-gallery-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+.image-gallery-image-one{
+
+    padding-left: 2px;
+}
+
+.image-gallery-image-one:hover{
+    opacity: 0.3;
+}
+
+div.footer{
+    display: flex;
+    flex-wrap: wrap;
+  
+   
+    background-color: #292828;
+    color: white;
+    height: 330px;
+
+
+}
+#footer-address-text{
+
+    opacity: 0.6;
+    line-height: 2em;
+    font-size: 0.85em;
+}
+#footer-icon-text{
+    opacity: 0.6;
+    line-height: 2em;
+    font-size: 0.85em;
+   
+    
+}
+
+#footer-icon{
+    color: rgb(46, 187, 46);
+    opacity: 0.6;
+    font-size: 0.85em;
+}
+#footer-social-icon{
+    padding-right: 20px;
+    padding-top: 20px;
+    color: white;
+    
+}
+div.footer{
+    margin-top: 200px;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+.useful-links-section{
+    font-weight: bolder;
+    padding-left: 180px;
+}
+.footer-social{
+    font-weight: bolder;
+    padding-left: 180px;
+}
+
+.footer-copyright-text{
+    background-color: rgb(31, 105, 207);
+    color: white;
+    height: 40px;
+    font-size: 0.75em;
+    padding-left: 60px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    
+}
+
+
+
+
+
 
 
 
