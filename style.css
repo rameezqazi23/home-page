@@ -1,21 +1,10 @@
 *{
     font-family: 'Product', Google Sans;
-    @font-face {
-        font-family: 'Product', Google Sans;
-        src: url(GoogleSans-Medium.ttf);
-    }
+    
 }
 
-@font-face {
-    font-family: 'Product', Google Sans;
-    src: url(GoogleSans-Medium.ttf);
-}
+@import url(fonts.css);
 
-
-
-/* body{
-    font-family: 'Product', Google Sans;
-} */
 
 div.top-bar{
 
